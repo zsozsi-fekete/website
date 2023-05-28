@@ -2,6 +2,7 @@ import Logo from "../Logo";
 import NavLink from "./NavLink";
 
 const NavBar = () => {
+  // TODO: logo
   return (
     <header className="fixed w-full z-30 md:bg-opacity-80 transition duration-300 ease-in-out bg-white backdrop-blur shadow-lg dark:bg-neutral-900">
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
