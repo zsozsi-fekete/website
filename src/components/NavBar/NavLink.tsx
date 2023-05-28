@@ -10,9 +10,9 @@ const NavLink = ({ href, title }: { href: string; title: string }) => {
       {title}
       <span
         className={`
-          h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5
-          group-hover:w-full transition-[width] ease duration-300
-          ${pathName === href ? "w-full" : "w-0"}
+          h-[1px] w-full inline-block  absolute left-0 -bottom-0.5
+          nav-link-transition-init group-hover:nav-link-transition-hover
+          ${pathName === href ? "bg-[length:100%_1px]" : ""}
           `}
       >
         &nbsp;
