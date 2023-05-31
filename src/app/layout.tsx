@@ -19,6 +19,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         <NavBar />
         {children}
+        <div id="modal-id" />
       </body>
     </html>
   );

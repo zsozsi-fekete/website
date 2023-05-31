@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        modal: "modal 0.3s",
+      },
+      keyframes: {
+        modal: {
+          "0%, 100%": { opacity: 0, height: 0 },
+          "100%": { opacity: 1, height: "100vh" },
+        },
+      },
       colors: {
         primary: "#223b38",
         secondary: "#C9D9CD",
